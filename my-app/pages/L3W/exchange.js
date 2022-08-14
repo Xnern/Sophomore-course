@@ -3,18 +3,18 @@ import Head from "next/head";
 import React, { useEffect, useRef, useState } from "react";
 import Web3Modal from "web3modal";
 import styles from "../../../Exchange/my-app/styles/Home.module.css";
-import { addLiquidity, calculateCD } from "../../../Exchange/my-app/utils/addLiquidity";
+import { addLiquidity, calculateCD } from "../../utils/addLiquidity";
 import {
   getCDTokensBalance,
   getEtherBalance,
   getLPTokensBalance,
   getReserveOfCDTokens,
-} from "../../../Exchange/my-app/utils/getAmounts";
+} from "../../utils/getAmounts";
 import {
   getTokensAfterRemove,
   removeLiquidity,
-} from "../../../Exchange/my-app/utils/removeLiquidity";
-import { swapTokens, getAmountOfTokensReceivedFromSwap } from "../../../Exchange/my-app/utils/swap";
+} from "../../utils/removeLiquidity";
+import { swapTokens, getAmountOfTokensReceivedFromSwap } from "../../utils/swap";
 import Navbar from '../../components/navbar';
 
 export default function Home() {
