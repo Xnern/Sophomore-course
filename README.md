@@ -13,6 +13,7 @@
   - Next.js/React
   - Web3(Ethers.js, Web3modal)
   - Solidity
+  - Hardhat
 
   ## Author
 
