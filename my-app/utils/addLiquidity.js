@@ -4,7 +4,7 @@ import {
   EXCHANGE_CONTRACT_ADDRESS,
   TOKEN_CONTRACT_ABI,
   TOKEN_CONTRACT_ADDRESS,
-} from "../constants";
+} from "../../Exchange/my-app/constants";
 import { utils } from "../node_modules/ethers/lib/ethers";
 
 /**
