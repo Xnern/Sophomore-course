@@ -1,10 +1,11 @@
-import { Contract, utils } from "ethers";
+import { Contract } from "ethers";
 import {
   EXCHANGE_CONTRACT_ABI,
   EXCHANGE_CONTRACT_ADDRESS,
   TOKEN_CONTRACT_ABI,
   TOKEN_CONTRACT_ADDRESS,
 } from "../constants";
+import { utils } from "../node_modules/ethers/lib/ethers";
 
 /**
  * addLiquidity helps add liquidity to the exchange,
